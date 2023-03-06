@@ -1,0 +1,40 @@
+.wrapper{
+    background: #292929;
+    overflow: scroll;
+}
+.contentWrapper{
+    display: flex;
+    background: #292929;
+}
+
+.DataWrapper{
+    height:calc(100vh - 65px);
+    width:78vw;
+    background: #CCCDCD;
+    display: flex;
+    flex-direction: column;
+    margin:8px auto;
+    padding: 12px;
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+h1{
+    font-size: 2vw;
+}
+
+.timeline-map-separator{
+    flex:1;
+    display:flex;
+    width:100vw;
+}
+
+.col{
+    width :30vw;
+}
+
+.col1{
+    align-items: center;
+    width : 45vw;
+}
